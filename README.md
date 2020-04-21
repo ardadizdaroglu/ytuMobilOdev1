@@ -1,7 +1,7 @@
 # ytuMobilOdev1
 Yıldız Teknik Üniversitesi Bilgi Teknolojileri Tezsiz Yüksek Lisans 2019-2020 Bahar Dönemi BLM5218 Mobil Teknolojiler ve Uygulamaları Ödev-1 by Arda Dizdaroğlu 19574016
-Ders Yürütücüsü: Dr. Öğr. Üyesi M. Amaç GÜVENSAN
-Konu : Activity, Intent, RecyclerView, SharedPreferences, Internal Storage, Sensors
+- Ders Yürütücüsü: Dr. Öğr. Üyesi M. Amaç GÜVENSAN
+- Konu : Activity, Intent, RecyclerView, SharedPreferences, Internal Storage, Sensors
 İçerik :
 1. Kullanıcı Giriş Ekranı: a. Şifre Kontrol, Hata Mesajı, Başarılı Giriş Mesajı
 2. Menü Ekranı: a. İlgili Aktivitelere Yönlendirme Ekranı
