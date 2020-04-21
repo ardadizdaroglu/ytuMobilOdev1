@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".KullaniciAyarlari.InfosActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="88dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:text="Bilgilerinizi Giriniz"
+                android:textSize="24dp"
+                android:textColor="@android:color/holo_red_dark"/>
+            <TextView
+                android:layout_width="238dp"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/textview"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="0dp"
+                android:text="Kullanici Adi"
+                android:textColor="@android:color/holo_red_dark"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_below="@+id/textView4"
+                android:padding="10dp"
+                android:id="@+id/edit1"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_red_dark"/>
+
+            <TextView
+                android:layout_width="238dp"
+                android:id="@+id/textView44"
+                android:layout_below="@+id/edit1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="0dp"
+                android:text="Cinsiyet"
+                android:textColor="@android:color/holo_red_dark"/>
+
+            <Spinner
+                android:layout_width="133dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView44"
+                android:padding="10dp"
+                android:id="@+id/spinner1"
+                android:textColor="@android:color/holo_red_dark"/>
+
+            <TextView
+                android:layout_width="238dp"
+                android:id="@+id/textView444"
+                android:layout_below="@+id/spinner1"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="0dp"
+                android:text="Boy"
+                android:textColor="@android:color/holo_red_dark"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_below="@+id/textView444"
+                android:padding="10dp"
+                android:id="@+id/edit5"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="@android:color/holo_red_dark"
+                android:maxLength="3"/>
+
+            <TextView
+                android:layout_width="238dp"
+                android:id="@+id/textView4444"
+                android:layout_below="@+id/edit5"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="0dp"
+                android:text="Kilo"
+                android:textColor="@android:color/holo_red_dark"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_below="@+id/textView4444"
+                android:padding="10dp"
+                android:id="@+id/edit4"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="@android:color/holo_red_dark"
+                android:maxLength="3"/>
+
+            <TextView
+                android:layout_width="238dp"
+                android:id="@+id/textView44444"
+                android:layout_below="@+id/edit4"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="0dp"
+                android:text="Yas"
+                android:textColor="@android:color/holo_red_dark"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_below="@+id/textView44444"
+                android:padding="10dp"
+                android:id="@+id/edit2"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textColor="@android:color/holo_red_dark"
+                android:maxLength="3"/>
+            <TextView
+                android:layout_width="238dp"
+                android:id="@+id/textView444444"
+                android:layout_below="@+id/edit2"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="0dp"
+                android:text="Uygulama Modu"
+                android:textColor="@android:color/holo_red_dark"/>
+
+            <Spinner
+                android:layout_width="133dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/textView444444"
+                android:padding="10dp"
+                android:id="@+id/spinner2"
+                android:textColor="@android:color/holo_red_dark"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
