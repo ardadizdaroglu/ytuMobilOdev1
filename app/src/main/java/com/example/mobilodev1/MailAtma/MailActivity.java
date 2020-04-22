@@ -93,7 +93,7 @@ public class MailActivity extends AppCompatActivity {
     }
     public void openFolder() {
         Intent intent = new Intent();
-        intent.setType("image/*");
+        intent.setType("*/*");
         intent.setAction(Intent.ACTION_GET_CONTENT);
         intent.putExtra("return-data", true);
         startActivityForResult(Intent.createChooser(intent, "Complete action using"), PICK_FROM_GALLERY);
